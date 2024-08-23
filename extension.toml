@@ -1,0 +1,18 @@
+id = "ember"
+name = "Ember Stable Language Server"
+description = "Zed extension for Ember.js language server integration"
+version = "0.0.1"
+schema_version = 1
+authors = ["Lou Greenwood"]
+repository = "https://github.com/lougreenwood/zed-ember-language-server"
+
+[language_servers.ember]
+name = "Ember Language Server"
+languages = [
+    "Handlebars",
+    "Glimmer",
+    "JavaScript",
+    "TypeScript",
+    "glimmer-js",
+    "glimmer-ts",
+]
